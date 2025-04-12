@@ -1,0 +1,7 @@
+fastapi==0.115.12
+joblib==1.4.2
+uvicorn==0.34.0
+lightgbm==4.6.0
+dotenv==0.9.9
+requests==2.32.3
+git+https://github.com/openai/CLIP.git
