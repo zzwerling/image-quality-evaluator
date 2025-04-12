@@ -28,7 +28,7 @@ This project predicts perceived image quality using visual embeddings and regres
 
 The regression model was trained on a dataset of facial images labeled with **perceived image quality scores**, using a pipeline designed for performance and generalization:
 
-- **Data Collection**: Curated labeled datasets containing human-scored facial images
+- **Data Collection**: Curated labeled datasets containing 6000+ human-scored facial images
 - **GPU Embedding Generation**: Extracted CLIP-L/14 image embeddings in batches using RunPod cloud GPUs for efficient processing, avoiding CPU bottlenecks
 - **Label Normalization**: Scaled quality scores to a 0–1 range using `MinMaxScaler` to improve training stability
 - **Oversampling Extremes**: Duplicated samples from high (≥8.5) and low (≤2.5) quality ranges to correct label imbalance
