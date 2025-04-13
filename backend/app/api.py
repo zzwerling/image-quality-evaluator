@@ -16,7 +16,7 @@ from app.evaluator import evaluate_photo
 BASE_DIR = Path(__file__).resolve().parent.parent 
 MODEL_PATH = BASE_DIR / "models" / "lgbm_model.pkl"
 
-ORIGINS = ["http://localhost:8000"]
+ORIGINS = ["http://localhost:8000", "http://localhost:5173"]
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)

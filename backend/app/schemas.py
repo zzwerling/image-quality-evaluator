@@ -8,11 +8,11 @@ class Image(BaseModel):
     
 class ImageURLRequest(BaseModel):
     imgur_url: HttpUrl
-    agreedToTerms: bool
+    agreed_to_terms: bool
     
     @model_validator(mode='after')
     def check_terms(self) -> 'ImageURLRequest':
-        if not self.agreedToTerms:
+        if not self.agreed_to_terms:
             raise ValueError("You must agree to the terms.")
         return self
 
