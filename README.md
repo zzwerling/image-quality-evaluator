@@ -47,7 +47,7 @@ Below is a sample of what the CLI returns after analyzing an image:
 
 ---
 
-##⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 The API currently only accepts public Imgur URLs due to legal constraints around processing uploaded user images. This design choice ensures the tool avoids storing, hosting, or handling any private image data — maintaining user privacy and reducing liability.
 
