@@ -11,7 +11,7 @@ This project predicts perceived image quality using visual embeddings and regres
 1. Extracts **CLIP-L/14** image embeddings to represent the photo semantically.
 2. Feeds embeddings into a **LightGBM regression model** trained on real-world visual aesthetics scores.
 3. Returns a **numeric score (1–10)** reflecting predicted image quality.
-4. (Coming soon) Integration with **GPT-4 Vision** to generate feedback and improvement suggestions.
+4. Integration with **GPT-4 Vision** to generate feedback and improvement suggestions. (CLI ONLY)
 
 ---
 
@@ -20,6 +20,7 @@ This project predicts perceived image quality using visual embeddings and regres
 - ✅ FastAPI-based API interface
 - ✅ CLIP image embedding extraction
 - ✅ Custom-trained LightGBM model (R²=0.90)
+- ✅ GPT-4 Vision powered image feedback
 - ✅ Modular and extensible code structure
 
 ---
@@ -36,3 +37,9 @@ The regression model was trained on a dataset of facial images labeled with **pe
 - **Error-Focused Tuning**: Used bin-level prediction analysis (low/mid/high/top) to guide sampling strategy and reduce drift across score categories
 
 The final LightGBM model achieved **R² = 0.90** and **RMSE ≈ 0.56** on validation data, indicating strong predictive performance across the full quality spectrum.
+
+---
+
+📸 Example Output
+Below is a sample of what the CLI returns after analyzing an image:
+![Image](readme_img.png)
