@@ -41,6 +41,7 @@ The final LightGBM model achieved **R² = 0.90** and **RMSE ≈ 0.56** on valida
 ---
 
 📸 Example Output
+
 Below is a sample of what the CLI returns after analyzing an image:
 ![Image](readme_image.png)
 
