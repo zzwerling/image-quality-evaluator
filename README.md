@@ -51,4 +51,8 @@ Below is a sample of what the CLI returns after analyzing an image:
 
 The API currently only accepts public Imgur URLs due to legal constraints around processing uploaded user images. This design choice ensures the tool avoids storing, hosting, or handling any private image data — maintaining user privacy and reducing liability.
 
+This project is provided for educational and research purposes only. The author is not responsible for any misuse, abuse, or unintended consequences resulting from the deployment, modification, or use of this tool. Use responsibly and at your own risk.
+
 Note: A basic frontend is currently in development but has not been deployed. The repo contains early-stage implementation code, which will be connected to the API once complete. There is no live demo available at this time.
+
+
