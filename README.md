@@ -1,6 +1,6 @@
 # Image Quality Evaluator
 
-**An API for scoring and evaluating photo quality using CLIP image embeddings and a custom-trained LightGBM regression model.**
+**An API bundled with a CLI tool for scoring and evaluating photo quality using CLIP image embeddings and a custom-trained LightGBM regression model.**
 
 This project predicts perceived image quality using visual embeddings and regression, supporting use cases like profile photo optimization, content curation, and image ranking.
 
@@ -43,3 +43,10 @@ The final LightGBM model achieved **R² = 0.90** and **RMSE ≈ 0.56** on valida
 📸 Example Output
 Below is a sample of what the CLI returns after analyzing an image:
 ![Image](readme_image.png)
+
+---
+
+⚠️ Disclaimer
+The API currently only accepts public Imgur URLs due to legal constraints around processing uploaded user images. This design choice ensures the tool avoids storing, hosting, or handling any private image data — maintaining user privacy and reducing liability.
+
+Note: A basic frontend is currently in development but has not been deployed. The repo contains early-stage implementation code, which will be connected to the API once complete. There is no live demo available at this time.
