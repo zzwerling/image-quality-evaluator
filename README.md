@@ -53,6 +53,3 @@ The API currently only accepts public Imgur URLs due to legal constraints around
 
 This project is provided for educational and research purposes only. The author is not responsible for any misuse, abuse, or unintended consequences resulting from the deployment, modification, or use of this tool. Use responsibly and at your own risk.
 
-Note: A basic frontend is currently in development but has not been deployed. The repo contains early-stage implementation code, which will be connected to the API once complete. There is no live demo available at this time.
-
-
